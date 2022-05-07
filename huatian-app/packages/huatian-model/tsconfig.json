@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    // 模型层支持的环境(一定要有es环境，否则ts不知道js版本是新的，因为要用js的一些新语法)
+    "lib":["dom", "ESNext"]
+  },
+  "include": ["src/**/*.ts"],
+}
