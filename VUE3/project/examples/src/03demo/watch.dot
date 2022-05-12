@@ -1,0 +1,11 @@
+digraph  {
+    watchEffect -> doWatch;
+    watch -> doWatch;
+
+    doWatch -> reactiveWrapper -> initialGet;
+    activeEffect[color=green]
+    reactiveWrapper -> activeEffect[dir=none]
+    initialGet -> trackAll_refs_reactives
+
+    trigger -> activeEffect -> job
+}

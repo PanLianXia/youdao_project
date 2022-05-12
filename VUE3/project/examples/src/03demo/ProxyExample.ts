@@ -1,12 +1,12 @@
 function createRef<T>(val: T) {
   const obj = {
     get value() {
-      // track()
+      // track() 通知vue跟踪value的变化
       console.log('get');
       return val;
     },
     set value(v: T) {
-      // trigger()
+      // trigger() 通知vue更新渲染模板
       console.log('set trigger', v);
       val = v;
     },
