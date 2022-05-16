@@ -1,5 +1,26 @@
 .App {
+  height: 100vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.header {
+  height: 50px;
+  background-color: aliceblue;
+}
+.main {
+  /* height: 85%; */
+  flex: 1;
+  background-color: bisque;
+  
+}
+.sidbar {
+ background-color: darksalmon; 
+}
+.fotter {
+  height: 200px;
+  background-color: beige;
 }
 
 .App-logo {
