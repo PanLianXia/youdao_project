@@ -5,11 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 
+const element = <h1>hello gf</h1>
+
+// ReactDOM.render(element, document.getElementById('root'))
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// 将虚拟dom（js对象）加载到实际的浏览器页面上
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <App />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

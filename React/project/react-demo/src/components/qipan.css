@@ -1,0 +1,10 @@
+.qipan-item {
+    height: 50px;
+    width: 50px;
+}
+.white {
+    background-color: #fff;
+}
+.blank {
+    background-color: #000;
+}
