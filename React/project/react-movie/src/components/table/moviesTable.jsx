@@ -6,7 +6,7 @@ const MoviesTable = ({ movies, onLike }) => {
   const columns = [
     {
       path: "title",
-      label: "标题",
+      label: "标题1",
       content: (movie) => (
         <a target="_blank" href={movie.alt}>
           {movie.title}
